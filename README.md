@@ -1,10 +1,10 @@
-# Google OAuth2 with FastAPI Users
+# Session Auth with FastAPI Users
 
 This repository provides a Google OAuth2 implementation using the [FastAPI Users](https://github.com/fastapi-users/fastapi-users/) library. It includes CRUD operations for user management and utilizes PostgreSQL as the database, with Alembic for database migrations.
 
 ## Features
 
-- Google OAuth Authentication
+- Session Authentication
 - CRUD operations for users
 - Integration with PostgreSQL database
 - Migrations handled with Alembic
@@ -30,7 +30,7 @@ docker run --name my_postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=osa
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/osamaaslam86004/google-auth2-fastapi.git
+   git clone https://github.com/osamaaslam86004/session-auth-fastapi.git
    cd jwt-auth-fastAPI
    ```
 
